@@ -22,3 +22,8 @@ select,
 textarea {
     max-width: 280px;
 }
+.mylogo {
+    background: url('../images/PraesignisLogoCrop100.png') no-repeat;
+    width: 15%;
+    height: 100px;
+}
