@@ -30,9 +30,9 @@
             </button>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav mr-auto">
-                    <li class="nav-item px-2">@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li class="nav-item px-2">@Html.ActionLink("About", "About", "Home")</li>
-                    <li class="nav-item px-2">@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li class="nav-item px-2" data-target=".navbar-collapse.show">@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li class="nav-item px-2" data-target=".navbar-collapse.show">@Html.ActionLink("About", "About", "Home")</li>
+                    <li class="nav-item px-2" data-target=".navbar-collapse.show">@Html.ActionLink("Contact", "Contact", "Home")</li>
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
